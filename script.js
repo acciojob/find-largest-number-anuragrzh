@@ -1,4 +1,15 @@
 function findLargest(a, b, c) {
+	
+	if(a>=b && a>=c){
+		return a;
+	}if(b>=a && b>=c){
+		return b;
+	}
+	 
+	if(a==b && b==c){
+		return 0;
+	}
+	return c;
   //your code here
 }
 
