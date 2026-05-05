@@ -2,7 +2,7 @@ function findLargest(a, b, c) {
 	
 	if(a>=b && a>=c){
 		return a;
-	}if(b>=a && b>=c){
+	}if(b>=a && b>=c){ 
 		return b;
 	}
 	 
@@ -10,7 +10,7 @@ function findLargest(a, b, c) {
 		return 0;
 	}
 	return c;
-  //your code here
+  //your code here  
 }
 
 const num1 = parseInt(prompt("Enter First Number."));
